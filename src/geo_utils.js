@@ -27,6 +27,7 @@
  * @property {Array<{x: number, y: number}>} REGULAR_EDER_8_POINTS - Points for a regular octagon.
  * @property {Array<{x: number, y: number}>} FOUR_STAR_POINTS - Points for a four-pointed star.
  * @property {Array<{x: number, y: number}>} STAR_5_POINTS - Points for a five-pointed star.
+ * @property {Array<{x: number, y: number}>} T_POINTS - Points for a T shape.
  *
  * @author Jon Bolmstedt
  */
