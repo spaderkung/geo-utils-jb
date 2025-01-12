@@ -7,7 +7,10 @@
  * @property {function} reflect_point - Reflect a single point in place around another point.
  * @property {function} rotate_points - Rotate an array of points in place.
  * @property {function} normalize_points - Normalize the points so that the smallest dimension goes from 0..1 and that both dimensions are offset so their smallest point is at 0.
- * @property {function} get_points_center - Returns the geometric center of the points.
+ * @property {function} get_center - Returns the geometric center of the points.
+ * @property {function} center_points - Center points around a provided center point.
+ * @property {function} get_midpoint - Returns the midpoint 0.5*(max - min).
+ * @property {function} close_catmull_rom_spline - Creates extra nodes at start and end as control points for a Catmull-Rom curve.
  * @property {function} signed_distance_circle - Returns the signed distance function for a circle in 2D space.
  * @property {function} signed_distance_rect - Returns the signed distance function for a rectangle in 2D space.
  * @property {function} signed_distance_line - Returns the signed distance function for a line segment in 2D space.
