@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext"
+  },
+  "include": [
+    "*.js",
+    "**/*.js",
+    "src/*.js",
+    "src/include/*.js",
+    "../../_libs_extern/@types/p5/global.d.ts",
+  ]
+}
